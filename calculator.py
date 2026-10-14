@@ -10,12 +10,15 @@ def division(a,b):
     return a/b
 def square(a):
     return a*a
+def power(a,b):
+    return a**b
 
 print(add(10,20))
 print(subtract(20,5))
 print(multiply(4,5))
 print(division(4,2))
 print(square(5))
+print(power(2,3))
 
 
 
